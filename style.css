@@ -1,0 +1,56 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background: navajowhite;
+  
+}
+.input-container{
+  background-image: url(GIF.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 150px;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
+  margin-left: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+input {
+  outline: none;
+  border: 2px solid slateblue;
+  width: 200px;
+  height: 40px;
+}
+button{
+    border: 2px solid slateblue;
+    border-radius: 5px;  width: 20%;
+    height: 30px;
+    cursor: pointer;
+}
+.text-container{
+  width: 280px;
+  height: 250px;
+  background: white;
+  padding: 40px;
+  margin-left: 40px;
+  box-shadow: 0 0 20px black;
+  border-radius: 15px;
+}
+mark{
+  background: lightgreen;
+}
+@media screen and (min-width: 500px) {
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-container{
+    height: 200px;
+  }
+}
+#ptag{
+  font-family: sans-serif;
+}
